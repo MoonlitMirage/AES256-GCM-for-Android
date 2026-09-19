@@ -1,4 +1,4 @@
-[English](README.en.md) | [简体中文](README.md)
+[English](README.md) | [简体中文](README.zh-CN.md)
 # AES256-GCM for Android
 
 A small AES-256-GCM encryption tool for Android. Works with both text and files.
