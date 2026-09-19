@@ -1,3 +1,4 @@
+[English](README.md) | [简体中文](README.zh-CN.md)
 # AES256-GCM for Android
 
 一个 Android 端 AES-256-GCM 加解密小工具，支持文本和文件两种模式。
