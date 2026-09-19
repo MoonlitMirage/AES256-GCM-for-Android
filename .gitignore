@@ -1,0 +1,49 @@
+# ===== Gradle =====
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# ===== Android Studio / IntelliJ =====
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+
+# ===== Android 编译产物 =====
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+captures/
+output.json
+release/
+*.keystore
+*.jks
+!debug.keystore
+
+# ===== Native / C++ =====
+.externalNativeBuild/
+.cxx/
+
+# ===== 日志和临时文件 =====
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== AI / IDE 插件缓存（你列出的） =====
+.codegraph/
+.reasonix/
+
+# ===== 其他 =====
+hello.txt

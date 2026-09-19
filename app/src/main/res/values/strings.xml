@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AES-256-GCM</string>
+
+    <string name="key_label">密钥</string>
+    <string name="key_helper">加密和解密使用同一密钥，请务必牢记；密钥丢失将无法解密</string>
+
+    <string name="input_title">明文输入</string>
+    <string name="input_label">明文</string>
+
+    <string name="cipher_title">密文输出</string>
+    <string name="cipher_label">密文</string>
+
+    <string name="btn_encrypt">加密</string>
+    <string name="btn_decrypt">解密</string>
+    <string name="btn_encrypt_file">加密文件</string>
+    <string name="btn_decrypt_file">解密文件</string>
+    <string name="encrypt_file_name">加密_%1$s.bin</string>
+    <string name="decrypt_file_name">解密_%1$s.txt</string>
+    <string name="msg_file_encrypting">正在加密文件…</string>
+    <string name="msg_file_decrypting">正在解密文件…</string>
+    <string name="msg_file_encrypted">文件加密完成</string>
+    <string name="msg_file_decrypted">文件解密完成</string>
+    <string name="btn_paste">粘贴</string>
+    <string name="btn_clear">清空</string>
+    <string name="btn_copy">复制</string>
+    <string name="btn_open_plain_file">打开 txt 文件</string>
+    <string name="btn_open_bin_file">打开 bin 文件</string>
+
+    <string name="settings">设置</string>
+    <string name="settings_file_mode_title">文件模式</string>
+    <string name="settings_plain_from_txt">明文输出 txt /从 txt 加载 </string>
+    <string name="settings_cipher_to_bin">密文输出 bin / 从 bin 加载</string>
+    <string name="settings_file_mode_hint">大文本加解密首选。\n· 明文较长时，加密后密文会更长，容易超出剪贴板容量\n· 密文直接以二进制写入，无需 Base64 转换，读取更直接\n· 收发双方只需互传 .bin 文件，避免聊天消息刷屏</string>    <string name="msg_need_plain_file">请先打开明文 txt 文件</string>
+    <string name="msg_need_cipher_file">请先打开密文 bin 文件</string>
+    <string name="msg_plain_file_selected">已选择明文文件，点击加密</string>
+    <string name="msg_cipher_file_selected">已选择密文文件，点击解密</string>
+    <string name="encrypt_text_file_name">加密_文本.bin</string>
+    <string name="decrypt_text_file_name">解密_文本.txt</string>
+
+    <string name="msg_file_loaded">已从文件载入</string>
+    <string name="msg_file_loading">正在加载文件…</string>
+    <string name="msg_file_too_large">文件过大（%1$d KB），本工具单次处理请使用不超过 %2$d KB 的文本文件</string>
+    <string name="msg_file_read_fail">读取文件失败</string>
+
+    <string name="msg_need_key">请先输入密钥</string>
+    <string name="msg_need_content">请先输入要处理的内容</string>
+    <string name="msg_encrypted_copied">加密成功，密文已复制到剪贴板</string>
+    <string name="msg_decrypted">解密成功，明文已放入明文输入框</string>
+    <string name="msg_copied">已复制到剪贴板</string>
+    <string name="msg_clipboard_empty">剪贴板中没有内容</string>
+    <string name="msg_pasted">已从剪贴板粘贴</string>
+    <string name="msg_no_plain">明文框还是空的</string>
+    <string name="msg_no_cipher">密文框还是空的</string>
+    <string name="msg_encrypt_fail">加密失败，请重试</string>
+    <string name="msg_decrypt_fail">解密失败，请检查密文和密钥</string>
+</resources>
